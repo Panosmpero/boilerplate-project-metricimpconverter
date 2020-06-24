@@ -6,8 +6,8 @@
 	"version": "0.0.1",
 	"description": "What am I about?",
 	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
+	"scripts": {		
+		"start": "nodemon --exec node server.js"
 	},
 	"dependencies": {
 		"express": "^4.14.0",
@@ -32,5 +32,8 @@
 		"hyperdev",
 		"express"
 	],
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
 }
